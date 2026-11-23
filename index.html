@@ -1,0 +1,1474 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>蒂娜muchitina - 官方视频门户 | 原创影像与创作者社区</title>
+<meta name="description" content="蒂娜muchitina官方网站，专注原创高清视频内容与创作者社区生态，呈现品牌故事、人物访谈与影像企划的持续运营平台。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231f6f78'/%3E%3Cstop offset='1' stop-color='%23e8a33d'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Cpath d='M24 20l20 12-20 12z' fill='%23fff'/%3E%3C/svg%3E">
+<style>
+:root{
+  --tm-deep:#0f2b30;
+  --tm-teal:#1f6f78;
+  --tm-teal-soft:#2e8f99;
+  --tm-amber:#e8a33d;
+  --tm-amber-soft:#f4c98a;
+  --tm-cream:#f6f2ea;
+  --tm-paper:#fffdf8;
+  --tm-ink:#1c2b2f;
+  --tm-muted:#5f7278;
+  --tm-line:#dfd8cb;
+  --tm-shadow:0 18px 40px -22px rgba(15,43,48,.45);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:132px}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  background:var(--tm-cream);
+  color:var(--tm-ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+h1,h2,h3,h4{margin:0;line-height:1.3;font-weight:700}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+.tm-wrap{width:min(1180px,92vw);margin:0 auto}
+.tm-skip{position:absolute;left:-9999px;top:0;background:var(--tm-amber);color:var(--tm-deep);padding:10px 18px;z-index:999;border-radius:0 0 8px 0}
+.tm-skip:focus{left:0}
+
+/* ===== 吸顶公告 + 页头 ===== */
+.tm-sticky-top{position:sticky;top:0;z-index:80}
+.tm-announce{
+  background:linear-gradient(90deg,var(--tm-deep),#174449 60%,var(--tm-teal));
+  color:#eaf4f4;font-size:.86rem;
+}
+.tm-announce-inner{
+  display:flex;align-items:center;gap:14px;padding:9px 0;overflow:hidden;
+}
+.tm-announce-tag{
+  flex:0 0 auto;background:var(--tm-amber);color:#2a1a05;font-weight:700;
+  padding:2px 10px;border-radius:999px;font-size:.76rem;letter-spacing:.06em;
+}
+.tm-announce-track{
+  flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.tm-announce-track b{color:var(--tm-amber-soft);font-weight:600}
+.tm-announce-more{flex:0 0 auto;color:var(--tm-amber-soft);font-size:.8rem;border-bottom:1px dashed rgba(232,163,61,.6);padding-bottom:1px}
+.tm-header{
+  background:rgba(255,253,248,.96);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--tm-line);
+  box-shadow:0 6px 18px -14px rgba(15,43,48,.4);
+}
+.tm-header-inner{display:flex;align-items:center;gap:20px;padding:12px 0}
+.tm-logo{display:flex;align-items:center;gap:11px;flex:0 0 auto}
+.tm-logo-mark{
+  width:42px;height:42px;border-radius:12px;flex:0 0 auto;
+  background:linear-gradient(135deg,var(--tm-teal),var(--tm-amber));
+  display:grid;place-items:center;color:#fff;font-weight:800;font-size:1.05rem;
+  box-shadow:0 8px 18px -10px rgba(31,111,120,.9);
+}
+.tm-logo-txt strong{display:block;font-size:1.06rem;letter-spacing:.02em;color:var(--tm-deep)}
+.tm-logo-txt span{display:block;font-size:.72rem;color:var(--tm-muted);letter-spacing:.16em}
+.tm-nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.tm-nav a{
+  padding:8px 13px;border-radius:9px;font-size:.92rem;color:var(--tm-ink);font-weight:500;
+  transition:background .2s,color .2s;
+}
+.tm-nav a:hover{background:#e7eeee;color:var(--tm-teal)}
+.tm-head-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.tm-search{position:relative;display:flex;align-items:center}
+.tm-search input{
+  width:186px;padding:9px 38px 9px 14px;border-radius:999px;border:1px solid var(--tm-line);
+  background:var(--tm-paper);font-size:.88rem;color:var(--tm-ink);outline:none;transition:border-color .2s,box-shadow .2s;
+}
+.tm-search input:focus{border-color:var(--tm-teal-soft);box-shadow:0 0 0 3px rgba(46,143,153,.16)}
+.tm-search button{
+  position:absolute;right:5px;width:30px;height:30px;border-radius:50%;
+  background:var(--tm-teal);color:#fff;display:grid;place-items:center;font-size:.82rem;
+}
+.tm-btn{
+  display:inline-flex;align-items:center;gap:7px;border-radius:999px;font-weight:600;
+  padding:10px 20px;font-size:.9rem;transition:transform .18s,box-shadow .18s,background .18s;
+}
+.tm-btn:active{transform:translateY(1px)}
+.tm-btn-primary{background:var(--tm-teal);color:#fff;box-shadow:0 10px 20px -12px rgba(31,111,120,.85)}
+.tm-btn-primary:hover{background:var(--tm-deep)}
+.tm-btn-amber{background:var(--tm-amber);color:#2a1a05}
+.tm-btn-amber:hover{background:var(--tm-amber-soft)}
+.tm-btn-ghost{border:1px solid var(--tm-teal);color:var(--tm-teal)}
+.tm-btn-ghost:hover{background:var(--tm-teal);color:#fff}
+.tm-menu-toggle{display:none;width:42px;height:42px;border-radius:11px;border:1px solid var(--tm-line);background:var(--tm-paper);place-items:center}
+.tm-menu-toggle span{display:block;width:19px;height:2px;background:var(--tm-ink);position:relative}
+.tm-menu-toggle span::before,.tm-menu-toggle span::after{content:"";position:absolute;left:0;width:19px;height:2px;background:var(--tm-ink)}
+.tm-menu-toggle span::before{top:-6px}.tm-menu-toggle span::after{top:6px}
+.tm-search-note{
+  display:none;position:absolute;top:calc(100% + 8px);right:0;width:250px;background:#fff;
+  border:1px solid var(--tm-line);border-radius:12px;box-shadow:var(--tm-shadow);padding:10px 14px;
+  font-size:.82rem;color:var(--tm-muted);z-index:60;
+}
+.tm-search-note.is-open{display:block}
+.tm-search-note b{color:var(--tm-teal)}
+
+/* ===== 首屏 ===== */
+.tm-hero{padding:44px 0 36px;position:relative;overflow:hidden}
+.tm-hero::before{
+  content:"";position:absolute;inset:auto -10% 55% 45%;height:420px;
+  background:radial-gradient(closest-side,rgba(232,163,61,.16),transparent 70%);pointer-events:none;
+}
+.tm-hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:46px;align-items:center}
+.tm-hero-kicker{
+  display:inline-flex;align-items:center;gap:9px;font-size:.8rem;letter-spacing:.14em;
+  color:var(--tm-teal);text-transform:uppercase;font-weight:700;margin-bottom:16px;
+}
+.tm-hero-kicker::before{content:"";width:28px;height:2px;background:var(--tm-amber)}
+.tm-hero h1{
+  font-size:clamp(2.3rem,5vw,3.5rem);letter-spacing:-.01em;color:var(--tm-deep);line-height:1.12;
+}
+.tm-hero h1 em{font-style:normal;color:var(--tm-teal);display:block;font-size:.5em;letter-spacing:.14em;font-weight:700;margin-top:12px}
+.tm-hero-lead{margin-top:18px;font-size:1.02rem;color:#3d565c;max-width:34em}
+.tm-hero-desc{
+  margin-top:16px;font-size:.94rem;color:var(--tm-muted);max-width:35em;
+  border-left:3px solid var(--tm-amber-soft);padding-left:14px;
+}
+.tm-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.tm-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:32px;max-width:480px}
+.tm-stat{background:var(--tm-paper);border:1px solid var(--tm-line);border-radius:15px;padding:14px 16px}
+.tm-stat b{display:block;font-size:1.42rem;color:var(--tm-teal);font-weight:800;letter-spacing:-.01em}
+.tm-stat span{font-size:.78rem;color:var(--tm-muted)}
+.tm-hero-visual{position:relative}
+.tm-hero-frame{
+  border-radius:26px;overflow:hidden;box-shadow:var(--tm-shadow);border:1px solid #d9d2c4;background:#123;
+  aspect-ratio:16/11;
+}
+.tm-hero-frame svg{width:100%;height:100%;display:block}
+.tm-hero-badge{
+  position:absolute;left:-18px;bottom:26px;background:var(--tm-paper);border:1px solid var(--tm-line);
+  border-radius:16px;padding:12px 18px;box-shadow:var(--tm-shadow);display:flex;align-items:center;gap:12px;
+}
+.tm-hero-badge-dot{width:10px;height:10px;border-radius:50%;background:#3fae74;box-shadow:0 0 0 4px rgba(63,174,116,.2)}
+.tm-hero-badge b{font-size:.9rem;color:var(--tm-deep)}
+.tm-hero-badge span{display:block;font-size:.75rem;color:var(--tm-muted)}
+
+/* ===== 通用区块 ===== */
+.tm-section{padding:56px 0}
+.tm-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:30px}
+.tm-section-kicker{font-size:.78rem;letter-spacing:.2em;color:var(--tm-amber);font-weight:800;text-transform:uppercase}
+.tm-section-title{font-size:clamp(1.5rem,2.6vw,2rem);color:var(--tm-deep);margin-top:6px}
+.tm-section-sub{font-size:.9rem;color:var(--tm-muted);max-width:36em}
+.tm-section-alt{background:var(--tm-paper);border-top:1px solid var(--tm-line);border-bottom:1px solid var(--tm-line)}
+.tm-section-deep{background:var(--tm-deep);color:#e9f1f1}
+.tm-section-deep .tm-section-title{color:#fff}
+.tm-section-deep .tm-section-sub{color:#a9c2c6}
+.tm-section-deep .tm-section-kicker{color:var(--tm-amber-soft)}
+
+/* ===== 关键词解析深度文 ===== */
+.tm-essay{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:40px;align-items:start}
+.tm-essay-body h3{font-size:1.14rem;color:var(--tm-deep);margin:26px 0 10px;padding-left:14px;position:relative}
+.tm-essay-body h3::before{content:"";position:absolute;left:0;top:.34em;width:5px;height:1.02em;border-radius:3px;background:linear-gradient(var(--tm-teal),var(--tm-amber))}
+.tm-essay-body p{font-size:.94rem;color:#41545a;margin-bottom:12px}
+.tm-essay-body p:first-of-type{margin-top:0}
+.tm-essay-aside{position:relative}
+.tm-aside-card{
+  background:linear-gradient(160deg,#123f45,#0f2b30);color:#dceaea;border-radius:20px;
+  padding:22px 22px 20px;box-shadow:var(--tm-shadow);
+}
+.tm-aside-card h4{font-size:1rem;color:#fff;margin-bottom:12px}
+.tm-aside-card li{font-size:.85rem;color:#a9c2c6;padding:7px 0;border-bottom:1px dashed rgba(255,255,255,.13);display:flex;justify-content:space-between;gap:10px}
+.tm-aside-card li:last-child{border-bottom:none}
+.tm-aside-card li b{color:var(--tm-amber-soft);font-weight:700}
+.tm-aside-figure{margin-top:18px;border-radius:18px;overflow:hidden;border:1px solid var(--tm-line);box-shadow:var(--tm-shadow)}
+.tm-aside-figure svg{width:100%;height:auto;display:block}
+
+/* ===== 视频区：单列图文列表 ===== */
+.tm-video-list{display:flex;flex-direction:column;gap:18px}
+.tm-video-item{
+  display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:22px;
+  background:var(--tm-paper);border:1px solid var(--tm-line);border-radius:18px;padding:16px;
+  transition:transform .22s,box-shadow .22s,border-color .22s;
+}
+.tm-video-item:hover{transform:translateY(-3px);box-shadow:var(--tm-shadow);border-color:var(--tm-teal-soft)}
+.tm-video-thumb{position:relative;border-radius:12px;overflow:hidden;aspect-ratio:16/9;background:#123}
+.tm-video-thumb svg{width:100%;height:100%;display:block}
+.tm-video-play{
+  position:absolute;right:10px;bottom:10px;background:rgba(15,43,48,.82);color:#fff;font-size:.72rem;
+  padding:4px 10px;border-radius:999px;letter-spacing:.04em;display:flex;align-items:center;gap:5px;
+}
+.tm-video-body{min-width:0;display:flex;flex-direction:column}
+.tm-video-body h3{font-size:1.06rem;color:var(--tm-deep);margin-bottom:7px}
+.tm-video-body p{font-size:.88rem;color:var(--tm-muted);margin-bottom:10px}
+.tm-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:11px}
+.tm-tag{font-size:.72rem;background:#e6efef;color:var(--tm-teal);padding:3px 9px;border-radius:999px;border:1px solid #cfe0e0}
+.tm-video-meta{display:flex;flex-wrap:wrap;align-items:center;gap:14px;font-size:.78rem;color:var(--tm-muted);margin-top:auto}
+.tm-video-meta .tm-author{color:var(--tm-teal);font-weight:600}
+.tm-video-ops{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.tm-op{
+  display:inline-flex;align-items:center;gap:5px;font-size:.78rem;padding:6px 12px;border-radius:999px;
+  border:1px solid var(--tm-line);background:var(--tm-paper);color:var(--tm-muted);transition:all .18s;
+}
+.tm-op:hover{border-color:var(--tm-teal-soft);color:var(--tm-teal)}
+.tm-op.is-active{background:var(--tm-teal);border-color:var(--tm-teal);color:#fff}
+.tm-op.is-fav{background:#fdeaea;border-color:#eab6b6;color:#c4503f}
+
+/* ===== 专题 ===== */
+.tm-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.tm-feature-card{
+  background:var(--tm-paper);border:1px solid var(--tm-line);border-radius:18px;overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .22s,box-shadow .22s;
+}
+.tm-feature-card:hover{transform:translateY(-4px);box-shadow:var(--tm-shadow)}
+.tm-feature-figure{aspect-ratio:16/9;overflow:hidden}
+.tm-feature-figure svg{width:100%;height:100%;display:block}
+.tm-feature-main{padding:18px 18px 20px;display:flex;flex-direction:column;flex:1}
+.tm-feature-status{font-size:.72rem;color:var(--tm-amber);font-weight:700;letter-spacing:.06em;margin-bottom:7px}
+.tm-feature-main h3{font-size:1.02rem;color:var(--tm-deep);margin-bottom:8px}
+.tm-feature-main > p{font-size:.85rem;color:var(--tm-muted);margin-bottom:12px}
+.tm-feature-items{border-top:1px dashed var(--tm-line);padding-top:11px;margin-top:auto;display:flex;flex-direction:column;gap:7px}
+.tm-feature-items li{font-size:.82rem;color:#43585e;display:flex;gap:8px;align-items:flex-start}
+.tm-feature-items li::before{content:"▸";color:var(--tm-amber);flex:0 0 auto;line-height:1.5}
+
+/* ===== 作者矩阵：小型头像列表 ===== */
+.tm-author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.tm-author-row{
+  display:flex;gap:16px;background:var(--tm-paper);border:1px solid var(--tm-line);border-radius:18px;padding:18px;
+  transition:box-shadow .2s,border-color .2s;min-width:0;
+}
+.tm-author-row:hover{box-shadow:var(--tm-shadow);border-color:var(--tm-teal-soft)}
+.tm-avatar{
+  width:56px;height:56px;flex:0 0 auto;border-radius:50%;display:grid;place-items:center;
+  font-weight:800;font-size:1.2rem;color:#fff;letter-spacing:.02em;
+}
+.tm-author-info{min-width:0}
+.tm-author-info h3{font-size:1rem;color:var(--tm-deep)}
+.tm-author-role{font-size:.76rem;color:var(--tm-amber);font-weight:700;margin:2px 0 6px}
+.tm-author-info p{font-size:.83rem;color:var(--tm-muted)}
+.tm-author-nums{display:flex;gap:14px;margin-top:8px;font-size:.76rem;color:var(--tm-teal);font-weight:600}
+.tm-author-more{
+  margin-top:9px;font-size:.78rem;color:var(--tm-teal);border-bottom:1px dashed var(--tm-teal-soft);
+  padding-bottom:1px;display:inline-block;transition:color .2s;
+}
+.tm-author-more:hover{color:var(--tm-amber)}
+
+/* ===== 榜单 ===== */
+.tm-chart-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.tm-chart-col{background:var(--tm-paper);border:1px solid var(--tm-line);border-radius:18px;padding:20px}
+.tm-chart-col h3{font-size:.98rem;color:var(--tm-deep);display:flex;align-items:center;gap:8px;margin-bottom:14px}
+.tm-chart-col h3::before{content:"";width:8px;height:8px;border-radius:2px;background:var(--tm-amber);transform:rotate(45deg)}
+.tm-chart-list{counter-reset:tmrank}
+.tm-chart-list li{
+  counter-increment:tmrank;display:flex;gap:12px;align-items:baseline;
+  font-size:.86rem;color:#3f565c;padding:9px 0;border-bottom:1px dashed var(--tm-line);
+}
+.tm-chart-list li:last-child{border-bottom:none;padding-bottom:0}
+.tm-chart-list li::before{
+  content:counter(tmrank);flex:0 0 auto;width:20px;height:20px;border-radius:6px;font-size:.72rem;
+  display:grid;place-items:center;background:#e6efef;color:var(--tm-teal);font-weight:800;align-self:center;
+}
+.tm-chart-list li:nth-child(1)::before{background:var(--tm-teal);color:#fff}
+.tm-chart-list li:nth-child(2)::before{background:var(--tm-amber);color:#2a1a05}
+.tm-chart-list li span{color:var(--tm-muted);font-size:.76rem;margin-left:auto}
+
+/* ===== 评价：引用摘录 ===== */
+.tm-review-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.tm-review{
+  background:var(--tm-paper);border:1px solid var(--tm-line);border-radius:18px;padding:22px 20px;
+  position:relative;display:flex;flex-direction:column;gap:10px;
+}
+.tm-review::before{
+  content:"“";position:absolute;right:16px;top:2px;font-size:3.4rem;color:var(--tm-amber-soft);line-height:1;font-family:Georgia,serif;
+}
+.tm-review p{font-size:.87rem;color:#42575d;position:relative;z-index:1}
+.tm-review-foot{display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:6px}
+.tm-review-avatar{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-size:.8rem;font-weight:700;color:#fff;flex:0 0 auto}
+.tm-review-name{font-size:.83rem;font-weight:600;color:var(--tm-deep)}
+.tm-review-tag{font-size:.72rem;color:var(--tm-muted)}
+.tm-stars{color:var(--tm-amber);font-size:.8rem;letter-spacing:1px}
+
+/* ===== 企业动态 ===== */
+.tm-news{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:34px;align-items:start}
+.tm-news-list{display:flex;flex-direction:column;gap:0}
+.tm-news-item{display:flex;gap:18px;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.tm-news-item:first-child{padding-top:0}
+.tm-news-item:last-child{border-bottom:none}
+.tm-news-date{flex:0 0 auto;font-size:.78rem;color:var(--tm-amber-soft);font-weight:700;letter-spacing:.04em;width:82px}
+.tm-news-item h3{font-size:.97rem;color:#fff;margin-bottom:5px}
+.tm-news-item p{font-size:.84rem;color:#a9c2c6}
+.tm-faq details{
+  border:1px solid rgba(255,255,255,.16);border-radius:13px;padding:0 16px;margin-bottom:10px;
+  background:rgba(255,255,255,.04);transition:background .2s;
+}
+.tm-faq details[open]{background:rgba(255,255,255,.09)}
+.tm-faq summary{
+  cursor:pointer;padding:14px 0;font-size:.92rem;font-weight:600;color:#eef6f6;list-style:none;
+  display:flex;justify-content:space-between;gap:14px;align-items:center;
+}
+.tm-faq summary::-webkit-details-marker{display:none}
+.tm-faq summary::after{content:"+";color:var(--tm-amber);font-size:1.2rem;line-height:1;transition:transform .2s}
+.tm-faq details[open] summary::after{transform:rotate(45deg)}
+.tm-faq details p{font-size:.85rem;color:#a9c2c6;padding-bottom:15px;margin:0}
+
+/* ===== 合作墙 ===== */
+.tm-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.tm-partner{
+  border:1px solid var(--tm-line);border-radius:14px;background:var(--tm-paper);
+  padding:18px 14px;text-align:center;font-size:.88rem;font-weight:600;color:var(--tm-deep);
+  display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s;
+}
+.tm-partner:hover{border-color:var(--tm-teal-soft);transform:translateY(-2px)}
+.tm-partner span{font-size:.72rem;color:var(--tm-muted);font-weight:400}
+
+/* ===== 投稿 CTA ===== */
+.tm-cta{
+  background:linear-gradient(120deg,#134045,#0f2b30 55%,#1a4d54);color:#eaf4f4;border-radius:22px;
+  padding:36px 34px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;
+  box-shadow:var(--tm-shadow);
+}
+.tm-cta h2{font-size:1.4rem;color:#fff;margin-bottom:8px}
+.tm-cta p{font-size:.9rem;color:#a9c2c6;max-width:42em}
+.tm-cta-actions{display:flex;gap:12px;flex-wrap:wrap}
+
+/* ===== 页脚 ===== */
+.tm-footer{background:#0b2226;color:#96b0b4;padding:46px 0 26px;font-size:.86rem}
+.tm-footer-grid{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(3,minmax(0,1fr));gap:32px}
+.tm-footer-brand .tm-logo-txt strong{color:#fff}
+.tm-footer-brand .tm-logo-txt span{color:#7e9a9e}
+.tm-footer-brand p{margin-top:14px;max-width:30em;color:#7e9a9e;font-size:.83rem}
+.tm-footer h4{color:#dcecec;font-size:.88rem;margin-bottom:12px;letter-spacing:.04em}
+.tm-footer li{padding:5px 0}
+.tm-footer a:hover{color:var(--tm-amber-soft)}
+.tm-footer-bottom{
+  margin-top:34px;padding-top:18px;border-top:1px solid rgba(255,255,255,.1);
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.78rem;color:#6c878b;
+}
+.tm-footer-bottom a{color:#8aa5a9}
+
+/* ===== 弹窗 / Toast / 回顶 ===== */
+.tm-modal-mask{
+  position:fixed;inset:0;background:rgba(10,28,32,.62);backdrop-filter:blur(3px);
+  display:none;place-items:center;z-index:120;padding:20px;
+}
+.tm-modal-mask.is-open{display:grid}
+.tm-modal{
+  background:var(--tm-paper);border-radius:20px;max-width:520px;width:100%;padding:28px;
+  box-shadow:0 30px 70px -30px rgba(0,0,0,.6);max-height:86vh;overflow:auto;position:relative;
+}
+.tm-modal h3{font-size:1.2rem;color:var(--tm-deep);margin-bottom:8px}
+.tm-modal-close{position:absolute;right:16px;top:14px;width:34px;height:34px;border-radius:50%;background:#ece6da;color:var(--tm-ink);font-size:1.1rem;display:grid;place-items:center}
+.tm-modal p,.tm-modal li{font-size:.88rem;color:#4b5f65}
+.tm-modal .tm-tags{margin:14px 0}
+.tm-modal-form{display:flex;flex-direction:column;gap:11px;margin-top:16px}
+.tm-modal-form input,.tm-modal-form textarea{
+  width:100%;padding:10px 13px;border-radius:10px;border:1px solid var(--tm-line);font-family:inherit;font-size:.88rem;background:#fff;outline:none;
+}
+.tm-modal-form input:focus,.tm-modal-form textarea:focus{border-color:var(--tm-teal-soft)}
+.tm-modal-form textarea{min-height:88px;resize:vertical}
+.tm-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);background:var(--tm-deep);color:#fff;
+  padding:12px 22px;border-radius:999px;font-size:.86rem;opacity:0;pointer-events:none;
+  transition:opacity .25s,transform .25s;z-index:200;box-shadow:0 18px 34px -18px rgba(0,0,0,.7);
+}
+.tm-toast.is-show{opacity:1;transform:translate(-50%,0)}
+.tm-backtop{
+  position:fixed;right:24px;bottom:26px;width:46px;height:46px;border-radius:50%;background:var(--tm-teal);
+  color:#fff;display:grid;place-items:center;font-size:1rem;box-shadow:0 14px 26px -14px rgba(31,111,120,.9);
+  opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:90;
+}
+.tm-backtop.is-show{opacity:1;pointer-events:auto}
+.tm-backtop:hover{background:var(--tm-deep)}
+
+/* ===== 响应式 ===== */
+@media (max-width:1000px){
+  .tm-hero-grid{grid-template-columns:1fr;gap:34px}
+  .tm-hero-badge{left:12px;bottom:12px}
+  .tm-essay{grid-template-columns:1fr}
+  .tm-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tm-chart-grid{grid-template-columns:1fr}
+  .tm-review-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tm-news{grid-template-columns:1fr}
+  .tm-footer-grid{grid-template-columns:1fr 1fr}
+  .tm-partners{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:820px){
+  .tm-nav{
+    display:none;position:absolute;left:4vw;right:4vw;top:calc(100% + 6px);
+    background:var(--tm-paper);border:1px solid var(--tm-line);border-radius:16px;
+    box-shadow:var(--tm-shadow);padding:10px;flex-direction:column;gap:2px;z-index:70;
+  }
+  .tm-nav.is-open{display:flex}
+  .tm-nav a{padding:11px 14px}
+  .tm-header-inner{position:relative;flex-wrap:wrap}
+  .tm-menu-toggle{display:grid}
+  .tm-head-tools{margin-left:auto}
+  .tm-search input{width:132px}
+  .tm-head-tools .tm-btn{display:none}
+  .tm-announce-track{font-size:.8rem}
+  .tm-video-item{grid-template-columns:1fr;gap:14px}
+  .tm-author-grid{grid-template-columns:1fr}
+  .tm-review-grid{grid-template-columns:1fr}
+}
+@media (max-width:620px){
+  .tm-feature-grid{grid-template-columns:1fr}
+  .tm-stats{grid-template-columns:1fr 1fr}
+  .tm-stat:last-child{grid-column:1/-1}
+  .tm-hero h1{font-size:2.1rem}
+  .tm-section{padding:42px 0}
+  .tm-cta{padding:28px 22px}
+  .tm-footer-grid{grid-template-columns:1fr}
+  .tm-announce-more{display:none}
+  .tm-search input{width:116px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<a class="tm-skip" href="#tm-main">跳到主要内容</a>
+
+<div class="tm-sticky-top">
+  <div class="tm-announce">
+    <div class="tm-wrap tm-announce-inner">
+      <span class="tm-announce-tag">官方发布</span>
+      <div class="tm-announce-track">
+        本周新增 <b>《城市光影：蒂娜muchitina 冬季影像企划》</b> 第一集上线 · <b>创作者开放日</b> 报名通道已开启 · 社区投稿数突破 <b>4,800</b> 条
+      </div>
+      <a class="tm-announce-more" href="#tm-news">查看更新</a>
+    </div>
+  </div>
+  <header class="tm-header">
+    <div class="tm-wrap tm-header-inner">
+      <a class="tm-logo" href="#tm-hero" aria-label="蒂娜muchitina 官方视频门户 首页">
+        <span class="tm-logo-mark" aria-hidden="true">蒂</span>
+        <span class="tm-logo-txt">
+          <strong>蒂娜muchitina</strong>
+          <span>OFFICIAL VIDEO</span>
+        </span>
+      </a>
+      <nav class="tm-nav" id="tmNav" aria-label="主导航">
+        <a href="#tm-hero">首页</a>
+        <a href="#tm-essay">品牌解析</a>
+        <a href="#tm-videos">精品内容</a>
+        <a href="#tm-features">专题企划</a>
+        <a href="#tm-authors">创作者</a>
+        <a href="#tm-charts">榜单</a>
+        <a href="#tm-news">企业动态</a>
+      </nav>
+      <div class="tm-head-tools">
+        <div class="tm-search">
+          <input type="search" id="tmSearchInput" placeholder="搜索内容 / 创作者" aria-label="站内搜索">
+          <button type="button" id="tmSearchBtn" aria-label="搜索">⌕</button>
+          <div class="tm-search-note" id="tmSearchNote" role="status"></div>
+        </div>
+        <button class="tm-btn tm-btn-amber" type="button" data-tm-modal="submit">投稿报名</button>
+        <button class="tm-menu-toggle" type="button" id="tmMenuToggle" aria-label="展开导航" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="tm-main">
+
+  <!-- S2 品牌首屏 -->
+  <section class="tm-hero" id="tm-hero">
+    <div class="tm-wrap tm-hero-grid">
+      <div class="tm-hero-copy">
+        <span class="tm-hero-kicker">蒂娜muchitina 官方网站</span>
+        <h1>蒂娜muchitina<em>原创影像 · 品牌社区</em></h1>
+        <p class="tm-hero-lead">以真实的人物与城市为原点，把每一次拍摄做成可以长期被观看、被讨论、被收藏的作品。</p>
+        <p class="tm-hero-desc">作为深耕原创影像领域的品牌，蒂娜muchitina 官方网站持续运营一个高品质内容生态：专业创作者在这里发布高清正版作品，企业与社区在这里相遇。我们相信影像的力量来自真实，也来自陪伴式的持续记录。</p>
+        <div class="tm-hero-actions">
+          <a class="tm-btn tm-btn-primary" href="#tm-videos">进入精品内容</a>
+          <a class="tm-btn tm-btn-ghost" href="#tm-features">浏览专题企划</a>
+          <button class="tm-btn tm-btn-amber" type="button" data-tm-modal="submit">成为创作者</button>
+        </div>
+        <div class="tm-stats">
+          <div class="tm-stat"><b data-tm-count="1260">1,260</b><span>原创高清作品</span></div>
+          <div class="tm-stat"><b data-tm-count="48">48</b><span>签约创作者</span></div>
+          <div class="tm-stat"><b data-tm-count="32">32</b><span>月活社区成员（万）</span></div>
+        </div>
+      </div>
+      <div class="tm-hero-visual">
+        <div class="tm-hero-frame">
+          <svg viewBox="0 0 640 440" role="img" aria-label="蒂娜muchitina 官方主视觉：晨光中的城市天台与正在取景的创作者">
+            <defs>
+              <linearGradient id="tmSky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#173f47"/>
+                <stop offset=".55" stop-color="#2e8f99"/>
+                <stop offset="1" stop-color="#f4c98a"/>
+              </linearGradient>
+              <linearGradient id="tmBld" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#0f2b30"/>
+                <stop offset="1" stop-color="#1c4a52"/>
+              </linearGradient>
+              <linearGradient id="tmSun" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ffe6b8"/>
+                <stop offset="1" stop-color="#e8a33d"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="440" fill="url(#tmSky)"/>
+            <circle cx="486" cy="128" r="62" fill="url(#tmSun)" opacity=".92"/>
+            <circle cx="486" cy="128" r="88" fill="none" stroke="#ffe6b8" stroke-width="1.6" opacity=".45"/>
+            <path d="M0 300 L96 258 L150 274 L214 232 L286 268 L352 226 L420 262 L492 234 L560 270 L640 240 L640 440 L0 440 Z" fill="url(#tmBld)" opacity=".95"/>
+            <g fill="#0b2226" opacity=".85">
+              <rect x="58" y="286" width="52" height="154"/>
+              <rect x="176" y="304" width="66" height="136"/>
+              <rect x="318" y="276" width="44" height="164"/>
+              <rect x="416" y="300" width="58" height="140"/>
+              <rect x="540" y="266" width="48" height="174"/>
+            </g>
+            <g fill="#f4c98a" opacity=".72">
+              <rect x="68" y="300" width="9" height="14"/><rect x="86" y="300" width="9" height="14"/>
+              <rect x="68" y="326" width="9" height="14"/><rect x="86" y="326" width="9" height="14"/>
+              <rect x="188" y="320" width="9" height="14"/><rect x="208" y="320" width="9" height="14"/>
+              <rect x="188" y="346" width="9" height="14"/><rect x="208" y="346" width="9" height="14"/>
+              <rect x="330" y="292" width="8" height="13"/><rect x="346" y="292" width="8" height="13"/>
+              <rect x="330" y="318" width="8" height="13"/><rect x="346" y="318" width="8" height="13"/>
+              <rect x="428" y="316" width="9" height="14"/><rect x="448" y="316" width="9" height="14"/>
+              <rect x="552" y="284" width="8" height="13"/><rect x="568" y="284" width="8" height="13"/>
+            </g>
+            <path d="M0 366 L640 340 L640 440 L0 440 Z" fill="#0b2226" opacity=".92"/>
+            <g transform="translate(300,236)">
+              <circle cx="0" cy="0" r="16" fill="#f2e2c8"/>
+              <path d="M-16 18 Q0 8 16 18 L20 76 L-20 76 Z" fill="#1f6f78"/>
+              <rect x="26" y="24" width="46" height="30" rx="6" fill="#0f2b30" stroke="#e8a33d" stroke-width="2.4"/>
+              <circle cx="49" cy="39" r="8" fill="none" stroke="#f4c98a" stroke-width="2.4"/>
+              <rect x="34" y="18" width="14" height="7" rx="2" fill="#e8a33d"/>
+              <path d="M-32 76 L32 76" stroke="#f4c98a" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+            </g>
+            <g fill="#ffffff" opacity=".5">
+              <circle cx="92" cy="82" r="2"/><circle cx="152" cy="128" r="1.6"/><circle cx="228" cy="66" r="2.2"/>
+              <circle cx="356" cy="104" r="1.6"/><circle cx="602" cy="74" r="2"/>
+            </g>
+          </svg>
+        </div>
+        <div class="tm-hero-badge">
+          <span class="tm-hero-badge-dot" aria-hidden="true"></span>
+          <div>
+            <b>冬季影像企划进行中</b>
+            <span>每周三 20:00 官方更新</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 品牌深度解析 -->
+  <section class="tm-section tm-section-alt" id="tm-essay">
+    <div class="tm-wrap">
+      <div class="tm-section-head">
+        <div>
+          <span class="tm-section-kicker">BRAND INSIGHT</span>
+          <h2 class="tm-section-title">品牌解析：蒂娜muchitina 如何把「真实」做成一种可运营的内容</h2>
+        </div>
+        <p class="tm-section-sub">从一间小型剪辑工作室到持续运营的原创影像社区，我们把方法论写下来，也把每一条作品留下来。</p>
+      </div>
+      <div class="tm-essay">
+        <div class="tm-essay-body">
+          <h3>从一个人的镜头，到一个社区的内容生态</h3>
+          <p>蒂娜muchitina 最早只是一个人、一台相机和一条固定的下班路线。2019 年冬天，创作者开始用连续镜头记录城市里被忽略的角落：修鞋摊的缝线、清晨六点的菜市场、旧居民楼外墙上的爬山虎。这些素材共同的特点是慢、不打扰、不设计冲突。它们后来成为品牌最初的影像底色，也决定了蒂娜muchitina 官方网站之后的选题倾向——我们不以猎奇换取点击，而以陪伴换取长期的观看。</p>
+          <p>随着作品数量增长，单一的发布渠道无法承载创作者与观众之间的往复。于是官方网站逐步被建设成一个真正的平台：作品在这里被归档、被标注、被检索，创作者可以通过投稿入口提交企划，社区成员可以通过标签筛选自己真正关心的主题。企业级的运营能力并不意味着冷冰冰的流程，它意味着一个创作者上传的第三十七条作品，依然能被准确地放到它该在的位置上，被对的人看见。</p>
+          <h3>品质与口碑：高清正版背后的取舍</h3>
+          <p>在蒂娜muchitina，内容品质不是一句口号，而是一连串略显笨拙的坚持。所有官方发布的视频统一采用高清母版存档，调色与声音以「不修饰现实」为前提；字幕由人工二次校对，方言与地名保留原貌；涉及他人的镜头在上线前必须完成授权确认。这些流程让更新速度不再是唯一指标，但也正是这些取舍，让社区里出现了「等得起」的评价——用户愿意为一支十分钟的片子停留，因为他们知道片尾字幕里每一个名字都真实存在。</p>
+          <p>我们希望被称作值得信赖的垂直领域品牌，而不是流量最快的平台。因此我们在评分与评论之外，设置了更长期的口碑指标：一支作品在发布三个月后仍被反复收藏的次数、被其他创作者引用的次数、在专题里被二次整合的次数。这些数据不会出现在热闹的榜单第一屏，但它们共同构成了一个内容生态真正的耐力。</p>
+          <h3>创作者优先：让专业的人被专业地对待</h3>
+          <p>蒂娜muchitina 的创作者矩阵并非一次性签约，而是年度共创。每位创作者在入驻时都会与编辑团队共同梳理自己的选题地图：擅长什么、想尝试什么、需要什么支持。摄像、收音、剪辑、调色、法务授权，这些环节由官方团队提供基础支持，创作者负责表达本身。我们不要求所有作品保持同一风格，相反，多元被明确写进社区准则——同一座城市，可以有纪实、有实验、有散文式的个人叙事。</p>
+          <p>社区的另一侧是用户。我们设置了投票与比赛机制，让选题走向不完全由编辑决定；每季度一次的创作挑战，会给出一个抽象主题，例如「回声」「隔壁」「冬天的第一分钟」，再由创作者自由诠释。挑战的获奖作品会被收录进专题企划，并在官方网站首页获得展示位。这个过程本身就是一次公开的行业观察：什么样的表达能穿过屏幕，抵达另一个人。</p>
+          <h3>面向下一个阶段：持续运营与长期主义</h3>
+          <p>2026 年，蒂娜muchitina 进入第六个运营年度。我们仍然保持每周固定更新，仍然坚持在每支片子后面写上创作手记，仍然把一部分资源投入到没有立即回报的选题上，例如地方戏曲的口述记录、手作匠人的工序存档。这些内容不会成为爆款，但它们是品牌故事里不能被删掉的部分，也是我们理解社会责任的方式：一个影像品牌能做的，不仅是记录热闹，还要替一些安静的事物留档。</p>
+          <p>如果你第一次来到这里，建议从精选内容开始，再进入专题企划看完整脉络；如果你是创作者，欢迎通过投稿入口递交你的企划，我们会在五个工作日内给出具体反馈。官方网站会持续更新企业动态、榜单与创作者名录，让每一次观看都有明确的来路与去处。</p>
+        </div>
+        <aside class="tm-essay-aside">
+          <div class="tm-aside-card">
+            <h4>品牌数据快照</h4>
+            <ul>
+              <li><span>运营起始</span><b>2019 年冬</b></li>
+              <li><span>原创高清作品</span><b>1,260 支</b></li>
+              <li><span>签约创作者</span><b>48 位</b></li>
+              <li><span>社区月活成员</span><b>32 万</b></li>
+              <li><span>专题企划累计</span><b>26 个</b></li>
+              <li><span>用户平均完播率</span><b>68.4%</b></li>
+            </ul>
+          </div>
+          <figure class="tm-aside-figure">
+            <svg viewBox="0 0 480 320" role="img" aria-label="蒂娜muchitina 创作手记的剪辑台示意：时间轴与分镜缩略图">
+              <rect width="480" height="320" fill="#e7efef"/>
+              <rect x="26" y="24" width="428" height="196" rx="12" fill="#0f2b30"/>
+              <rect x="42" y="40" width="90" height="58" rx="6" fill="#1f6f78"/>
+              <rect x="142" y="40" width="90" height="58" rx="6" fill="#2e8f99"/>
+              <rect x="242" y="40" width="90" height="58" rx="6" fill="#e8a33d"/>
+              <rect x="342" y="40" width="96" height="58" rx="6" fill="#173f47"/>
+              <g fill="#f4c98a" opacity=".85">
+                <rect x="42" y="128" width="120" height="8" rx="4"/>
+                <rect x="42" y="146" width="196" height="8" rx="4"/>
+                <rect x="42" y="164" width="86" height="8" rx="4"/>
+              </g>
+              <g fill="#2e8f99" opacity=".8">
+                <rect x="42" y="188" width="250" height="10" rx="5"/>
+              </g>
+              <circle cx="292" cy="193" r="9" fill="#e8a33d"/>
+              <rect x="26" y="238" width="200" height="14" rx="7" fill="#1f6f78" opacity=".3"/>
+              <rect x="26" y="262" width="320" height="14" rx="7" fill="#1f6f78" opacity=".18"/>
+              <rect x="26" y="286" width="140" height="14" rx="7" fill="#e8a33d" opacity=".4"/>
+            </svg>
+          </figure>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 精品内容（单列图文列表） -->
+  <section class="tm-section" id="tm-videos">
+    <div class="tm-wrap">
+      <div class="tm-section-head">
+        <div>
+          <span class="tm-section-kicker">CURATED VIDEO</span>
+          <h2 class="tm-section-title">精品内容：蒂娜muchitina 本周官方精选</h2>
+        </div>
+        <p class="tm-section-sub">四支作品，四种观看节奏。全部为原创高清正版，附创作手记与完整授权信息。</p>
+      </div>
+      <div class="tm-video-list">
+
+        <article class="tm-video-item">
+          <div class="tm-video-thumb">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：清晨六点的早餐摊上升起的白汽与暖色灯光">
+              <defs><linearGradient id="tmV1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c3a40"/><stop offset="1" stop-color="#8a5a2b"/></linearGradient></defs>
+              <rect width="320" height="180" fill="url(#tmV1)"/>
+              <circle cx="252" cy="42" r="22" fill="#ffd89a" opacity=".85"/>
+              <rect x="0" y="118" width="320" height="62" fill="#2a1c12" opacity=".9"/>
+              <rect x="52" y="86" width="86" height="34" rx="6" fill="#e8a33d"/>
+              <rect x="60" y="94" width="70" height="8" rx="4" fill="#7a4a18" opacity=".7"/>
+              <rect x="150" y="96" width="12" height="26" fill="#f4c98a" opacity=".8"/>
+              <rect x="176" y="92" width="12" height="30" fill="#f4c98a" opacity=".55"/>
+              <path d="M112 80 Q118 54 106 40 M126 80 Q134 52 122 34" stroke="#fff" stroke-width="3" fill="none" opacity=".55" stroke-linecap="round"/>
+              <g fill="#3f2a1a"><ellipse cx="200" cy="94" rx="18" ry="10"/><ellipse cx="238" cy="94" rx="18" ry="10"/></g>
+            </svg>
+            <span class="tm-video-play">▶ 09:12</span>
+          </div>
+          <div class="tm-video-body">
+            <h3>《六点零七分》：一座城市的第一锅豆浆</h3>
+            <p>跟着摊主周姨的节奏走完一个早晨：磨豆、烧浆、摆凳、收摊。全片只用环境声，记录一条街醒来之前的完整呼吸。</p>
+            <div class="tm-tags"><span class="tm-tag">城市探索</span><span class="tm-tag">日常记录</span><span class="tm-tag">治愈影像</span></div>
+            <div class="tm-video-meta">
+              <span class="tm-author">作者 · 周慕白</span>
+              <span>播放 12.4 万</span>
+              <span>点赞 8,206</span>
+              <span>收藏 3,915</span>
+            </div>
+            <div class="tm-video-ops">
+              <button class="tm-op" type="button" data-tm-like>♡ 点赞 <b>8206</b></button>
+              <button class="tm-op" type="button" data-tm-fav>☆ 收藏</button>
+              <button class="tm-op" type="button" data-tm-share>⤴ 分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tm-video-item">
+          <div class="tm-video-thumb">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：手作木工工作室里散落的刨花与窗外透进的光带">
+              <defs><linearGradient id="tmV2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a3a2c"/><stop offset="1" stop-color="#5c7a4a"/></linearGradient></defs>
+              <rect width="320" height="180" fill="url(#tmV2)"/>
+              <path d="M0 0 L120 0 L64 180 L0 180 Z" fill="#f4e3b8" opacity=".18"/>
+              <rect x="36" y="118" width="248" height="12" rx="4" fill="#c9a26a"/>
+              <rect x="60" y="130" width="14" height="46" fill="#8a6a3d"/>
+              <rect x="246" y="130" width="14" height="46" fill="#8a6a3d"/>
+              <path d="M110 118 Q120 92 140 106 Q150 82 168 100 Q182 86 196 108 L200 118 Z" fill="#e8c68c"/>
+              <path d="M96 106 Q104 92 118 104" stroke="#e8c68c" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <rect x="124" y="66" width="54" height="16" rx="3" fill="#d9b070" transform="rotate(-12 124 66)"/>
+              <rect x="196" y="52" width="30" height="7" rx="3" fill="#f0d9a8" opacity=".8" transform="rotate(18 196 52)"/>
+            </svg>
+            <span class="tm-video-play">▶ 14:36</span>
+          </div>
+          <div class="tm-video-body">
+            <h3>《一把刨子的三十年》：木作匠人的工序存档</h3>
+            <p>从选料到打磨，七道工序完整记录。老师傅说得不多，但每一个停顿都在解释什么叫匠心，这也是本站长期保存的手作档案之一。</p>
+            <div class="tm-tags"><span class="tm-tag">手作DIY</span><span class="tm-tag">人物访谈</span><span class="tm-tag">在地文化</span></div>
+            <div class="tm-video-meta">
+              <span class="tm-author">作者 · 林间手记</span>
+              <span>播放 7.8 万</span>
+              <span>点赞 5,341</span>
+              <span>收藏 2,776</span>
+            </div>
+            <div class="tm-video-ops">
+              <button class="tm-op" type="button" data-tm-like>♡ 点赞 <b>5341</b></button>
+              <button class="tm-op" type="button" data-tm-fav>☆ 收藏</button>
+              <button class="tm-op" type="button" data-tm-share>⤴ 分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tm-video-item">
+          <div class="tm-video-thumb">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：雨夜公交站台的倒影与穿行的伞面">
+              <defs><linearGradient id="tmV3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16222e"/><stop offset="1" stop-color="#28485c"/></linearGradient></defs>
+              <rect width="320" height="180" fill="url(#tmV3)"/>
+              <g stroke="#7fb6c6" stroke-width="1.2" opacity=".35">
+                <path d="M20 8 L-6 74"/><path d="M62 0 L26 92"/><path d="M120 0 L80 100"/>
+                <path d="M186 0 L146 96"/><path d="M250 0 L212 88"/><path d="M318 0 L278 76"/>
+              </g>
+              <rect x="0" y="126" width="320" height="54" fill="#0d1b24"/>
+              <rect x="0" y="126" width="320" height="54" fill="#7fb6c6" opacity=".08"/>
+              <rect x="30" y="70" width="118" height="56" rx="4" fill="#203a4a" stroke="#4f7d90" stroke-width="1.6"/>
+              <rect x="42" y="80" width="42" height="36" rx="3" fill="#f4c98a" opacity=".5"/>
+              <rect x="96" y="80" width="40" height="36" rx="3" fill="#8fd0d8" opacity=".35"/>
+              <path d="M196 118 Q220 92 244 118 Z" fill="#e8a33d"/>
+              <rect x="218" y="118" width="5" height="20" fill="#c9a26a"/>
+              <path d="M258 118 Q282 92 306 118 Z" fill="#8fbfc8" opacity=".8"/>
+              <rect x="280" y="118" width="5" height="20" fill="#c9a26a"/>
+              <rect x="0" y="144" width="320" height="2" fill="#8fd0d8" opacity=".25"/>
+            </svg>
+            <span class="tm-video-play">▶ 11:48</span>
+          </div>
+          <div class="tm-video-body">
+            <h3>《末班车之后》：雨夜站台的三十分钟</h3>
+            <p>没有旁白的城市观察。镜头守在同一个站台，等雨、等车、等最后一个下班的人。适合在深夜戴上耳机完整看完。</p>
+            <div class="tm-tags"><span class="tm-tag">城市探索</span><span class="tm-tag">情感故事</span><span class="tm-tag">高清</span></div>
+            <div class="tm-video-meta">
+              <span class="tm-author">作者 · 谢未央</span>
+              <span>播放 9.6 万</span>
+              <span>点赞 6,702</span>
+              <span>收藏 4,120</span>
+            </div>
+            <div class="tm-video-ops">
+              <button class="tm-op" type="button" data-tm-like>♡ 点赞 <b>6702</b></button>
+              <button class="tm-op" type="button" data-tm-fav>☆ 收藏</button>
+              <button class="tm-op" type="button" data-tm-share>⤴ 分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tm-video-item">
+          <div class="tm-video-thumb">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：剪辑室双屏对照，创作者正在讲解分镜节奏">
+              <rect width="320" height="180" fill="#eef3ee"/>
+              <rect x="24" y="28" width="128" height="86" rx="6" fill="#173f47"/>
+              <rect x="168" y="28" width="128" height="86" rx="6" fill="#1f6f78"/>
+              <rect x="36" y="40" width="104" height="10" rx="5" fill="#8fd0d8" opacity=".8"/>
+              <rect x="36" y="58" width="76" height="8" rx="4" fill="#f4c98a" opacity=".85"/>
+              <rect x="36" y="74" width="92" height="8" rx="4" fill="#ffffff" opacity=".5"/>
+              <rect x="180" y="40" width="52" height="62" rx="4" fill="#0f2b30"/>
+              <rect x="240" y="40" width="44" height="28" rx="4" fill="#e8a33d" opacity=".85"/>
+              <rect x="240" y="74" width="44" height="28" rx="4" fill="#f4c98a" opacity=".7"/>
+              <rect x="24" y="132" width="272" height="16" rx="8" fill="#cfdcd4"/>
+              <rect x="24" y="132" width="150" height="16" rx="8" fill="#1f6f78"/>
+              <circle cx="174" cy="140" r="8" fill="#e8a33d"/>
+            </svg>
+            <span class="tm-video-play">▶ 16:05</span>
+          </div>
+          <div class="tm-video-body">
+            <h3>《剪辑节奏课》：把一支十分钟片子做慢的五个方法</h3>
+            <p>创作者学院公开课第 12 期。从镜头长度、留白、声音层次到转场克制，逐段拆解慢节奏叙事，适合正在准备投稿的新人创作者。</p>
+            <div class="tm-tags"><span class="tm-tag">教程干货</span><span class="tm-tag">创作幕后</span><span class="tm-tag">实用技巧</span></div>
+            <div class="tm-video-meta">
+              <span class="tm-author">作者 · 剪辑师阿柘</span>
+              <span>播放 5.1 万</span>
+              <span>点赞 4,468</span>
+              <span>收藏 3,290</span>
+            </div>
+            <div class="tm-video-ops">
+              <button class="tm-op" type="button" data-tm-like>♡ 点赞 <b>4468</b></button>
+              <button class="tm-op" type="button" data-tm-fav>☆ 收藏</button>
+              <button class="tm-op" type="button" data-tm-share>⤴ 分享</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- S4 专题企划 -->
+  <section class="tm-section tm-section-alt" id="tm-features">
+    <div class="tm-wrap">
+      <div class="tm-section-head">
+        <div>
+          <span class="tm-section-kicker">SERIES &amp; PROGRAMS</span>
+          <h2 class="tm-section-title">专题企划：蒂娜muchitina 的长期叙事</h2>
+        </div>
+        <p class="tm-section-sub">每个企划都以季度为单位推进，包含三条以上的内容条目，更新状态公开透明。</p>
+      </div>
+      <div class="tm-feature-grid">
+
+        <article class="tm-feature-card">
+          <div class="tm-feature-figure">
+            <svg viewBox="0 0 400 225" role="img" aria-label="专题配图：冬季城市建筑群与暖色窗光的拼贴构成">
+              <rect width="400" height="225" fill="#dfe9e6"/>
+              <rect x="26" y="42" width="124" height="160" fill="#1f6f78"/>
+              <rect x="164" y="76" width="86" height="126" fill="#2e8f99"/>
+              <rect x="264" y="30" width="110" height="172" fill="#0f2b30"/>
+              <g fill="#f4c98a">
+                <rect x="42" y="62" width="16" height="20"/><rect x="74" y="62" width="16" height="20"/><rect x="106" y="62" width="16" height="20"/>
+                <rect x="42" y="98" width="16" height="20"/><rect x="106" y="98" width="16" height="20"/>
+                <rect x="180" y="98" width="14" height="18"/><rect x="210" y="98" width="14" height="18"/>
+                <rect x="180" y="132" width="14" height="18"/>
+                <rect x="286" y="56" width="18" height="22"/><rect x="322" y="56" width="18" height="22"/>
+                <rect x="286" y="94" width="18" height="22"/><rect x="322" y="94" width="18" height="22"/><rect x="322" y="132" width="18" height="22"/>
+              </g>
+              <rect x="0" y="202" width="400" height="23" fill="#c3d4cf"/>
+            </svg>
+          </div>
+          <div class="tm-feature-main">
+            <span class="tm-feature-status">更新中 · 第 2 / 6 集</span>
+            <h3>城市光影：冬季影像企划</h3>
+            <p>以六座城市、六个清晨为线索，记录低温季节里仍然升温的生活现场。全部采用自然光拍摄。</p>
+            <ul class="tm-feature-items">
+              <li>《六点零七分》早餐摊实录</li>
+              <li>《玻璃上的雾》通勤影像散文</li>
+              <li>《锅炉房》供暖季人物访谈</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tm-feature-card">
+          <div class="tm-feature-figure">
+            <svg viewBox="0 0 400 225" role="img" aria-label="专题配图：手作工序图解，木料、刀具与线稿步骤并列">
+              <rect width="400" height="225" fill="#f0ebdd"/>
+              <rect x="24" y="24" width="160" height="120" rx="8" fill="#c9a26a"/>
+              <path d="M40 128 Q80 92 140 96 L168 88 L168 144 L40 144 Z" fill="#a8804a"/>
+              <path d="M64 72 Q92 52 124 72" stroke="#7a5a2e" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <rect x="204" y="40" width="172" height="60" rx="6" fill="#fffdf8" stroke="#cbbfa6"/>
+              <rect x="216" y="54" width="84" height="8" rx="4" fill="#1f6f78"/>
+              <rect x="216" y="72" width="120" height="8" rx="4" fill="#cbbfa6"/>
+              <rect x="204" y="116" width="172" height="60" rx="6" fill="#fffdf8" stroke="#cbbfa6"/>
+              <rect x="216" y="130" width="60" height="8" rx="4" fill="#e8a33d"/>
+              <rect x="216" y="148" width="132" height="8" rx="4" fill="#cbbfa6"/>
+              <circle cx="62" cy="176" r="18" fill="#1f6f78"/>
+              <circle cx="110" cy="176" r="18" fill="#e8a33d"/>
+              <circle cx="158" cy="176" r="18" fill="#2e8f99" opacity=".7"/>
+            </svg>
+          </div>
+          <div class="tm-feature-main">
+            <span class="tm-feature-status">已完结 · 共 5 集</span>
+            <h3>手的档案：手作匠人口述计划</h3>
+            <p>为仍在坚持手工工序的从业者留下影像与文字档案，每集附完整工序图解与工具清单。</p>
+            <ul class="tm-feature-items">
+              <li>《一把刨子的三十年》木作篇</li>
+              <li>《补的是鞋，也是路》修鞋篇</li>
+              <li>《一针一线》裁缝铺篇</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tm-feature-card">
+          <div class="tm-feature-figure">
+            <svg viewBox="0 0 400 225" role="img" aria-label="专题配图：新人创作者扶持计划，多个人像轮廓与上升箭头">
+              <rect width="400" height="225" fill="#173f47"/>
+              <g fill="#2e8f99">
+                <circle cx="80" cy="98" r="26"/><circle cx="160" cy="82" r="22"/><circle cx="236" cy="104" r="30"/><circle cx="316" cy="86" r="20"/>
+              </g>
+              <g fill="#f4c98a" opacity=".9">
+                <circle cx="80" cy="98" r="12"/><circle cx="160" cy="82" r="10"/><circle cx="236" cy="104" r="13"/><circle cx="316" cy="86" r="9"/>
+              </g>
+              <path d="M40 180 L112 150 L184 164 L256 128 L328 140 L376 108" stroke="#e8a33d" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <circle cx="376" cy="108" r="7" fill="#e8a33d"/>
+              <rect x="0" y="196" width="400" height="29" fill="#0f2b30"/>
+            </svg>
+          </div>
+          <div class="tm-feature-main">
+            <span class="tm-feature-status">报名中 · 截止 12 月 18 日</span>
+            <h3>新人扶持：第一支片子的完整路径</h3>
+            <p>面向首次投稿的创作者，提供选题辅导、设备租借与剪辑反馈，入选作品将在官方网站首页展示。</p>
+            <ul class="tm-feature-items">
+              <li>选题工作坊：如何找到一个具体的人</li>
+              <li>剪辑门诊：一对一片子诊断</li>
+              <li>结营展映与社区投票</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- S5 创作者矩阵（小型头像列表） -->
+  <section class="tm-section" id="tm-authors">
+    <div class="tm-wrap">
+      <div class="tm-section-head">
+        <div>
+          <span class="tm-section-kicker">CREATORS</span>
+          <h2 class="tm-section-title">创作者矩阵：蒂娜muchitina 社区的长期伙伴</h2>
+        </div>
+        <p class="tm-section-sub">他们来自不同城市与行业，共同点是愿意为一个镜头等待很久。点击可查看完整档案。</p>
+      </div>
+      <div class="tm-author-grid">
+
+        <article class="tm-author-row">
+          <div class="tm-avatar" style="background:linear-gradient(135deg,#1f6f78,#2e8f99)">周</div>
+          <div class="tm-author-info">
+            <h3>周慕白</h3>
+            <p class="tm-author-role">城市纪实 · 签约创作者</p>
+            <p>拍早市、拍夜班、拍收摊之后的街道。习惯单机位长镜头，认为等待是纪实最诚实的技术。正在推进冬季城市企划的第二季。</p>
+            <div class="tm-author-nums"><span>作品 86</span><span>粉丝 12.6 万</span></div>
+            <button class="tm-author-more" type="button" data-tm-author="周慕白|城市纪实 · 签约创作者|86 支原创作品，12.6 万粉丝|2019 年加入蒂娜muchitina，是最早一批签约创作者。坚持使用自然光与同期声，代表作《六点零七分》单平台完播率超过七成。他认为影像的价值在于保留那些「没有必要被拍下来」的瞬间。">查看完整档案</button>
+          </div>
+        </article>
+
+        <article class="tm-author-row">
+          <div class="tm-avatar" style="background:linear-gradient(135deg,#8a6a3d,#e8a33d)">林</div>
+          <div class="tm-author-info">
+            <h3>林间手记</h3>
+            <p class="tm-author-role">手作与工艺 · 年度共创</p>
+            <p>用镜头做工艺档案。拍摄前会先跟师傅学一遍完整工序，因此片子里常出现手部特写与磨旧的工具。已为社区留下十七位匠人的口述记录。</p>
+            <div class="tm-author-nums"><span>作品 54</span><span>粉丝 8.3 万</span></div>
+            <button class="tm-author-more" type="button" data-tm-author="林间手记|手作与工艺 · 年度共创|54 支原创作品，8.3 万粉丝|出身于木工家庭，2021 年开始系统拍摄手作工序。她坚持每支片子附带工具清单与工序图解，方便观众真正理解手艺的门槛。作品《一把刨子的三十年》被收录进本站手作档案专题。">查看完整档案</button>
+          </div>
+        </article>
+
+        <article class="tm-author-row">
+          <div class="tm-avatar" style="background:linear-gradient(135deg,#28485c,#7fb6c6)">谢</div>
+          <div class="tm-author-info">
+            <h3>谢未央</h3>
+            <p class="tm-author-role">影像散文 · 签约创作者</p>
+            <p>专注雨、夜、通勤这类容易被人忽略的场景。几乎不使用旁白，把所有解释权交给声音与光线。正在制作关于末班地铁的系列短片。</p>
+            <div class="tm-author-nums"><span>作品 41</span><span>粉丝 9.9 万</span></div>
+            <button class="tm-author-more" type="button" data-tm-author="谢未央|影像散文 · 签约创作者|41 支原创作品，9.9 万粉丝|前电台音频编辑，转做影像后仍保留对声音的执念。她的作品多在深夜发布，评论区常出现「看完才敢睡」的留言。她说自己拍的不是城市，是人在城市里的停留时间。">查看完整档案</button>
+          </div>
+        </article>
+
+        <article class="tm-author-row">
+          <div class="tm-avatar" style="background:linear-gradient(135deg,#0f2b30,#1f6f78)">拓</div>
+          <div class="tm-author-info">
+            <h3>剪辑师阿柘</h3>
+            <p class="tm-author-role">教程与幕后 · 官方讲师</p>
+            <p>创作者学院常驻讲师，擅长把抽象的节奏问题讲成可执行的步骤。累计为社区提供四百余次剪辑门诊，很多新人的第一支片子都在他手里改过三版。</p>
+            <div class="tm-author-nums"><span>作品 63</span><span>粉丝 6.7 万</span></div>
+            <button class="tm-author-more" type="button" data-tm-author="剪辑师阿柘|教程与幕后 · 官方讲师|63 支原创作品，6.7 万粉丝|十年商业剪辑经验，2020 年起在蒂娜muchitina 开设创作者公开课。他反对为了炫技而加快节奏，认为剪辑的本质是帮观众决定在哪里呼吸。课程以实战拆解为主，不留玄学。">查看完整档案</button>
+          </div>
+        </article>
+
+        <article class="tm-author-row">
+          <div class="tm-avatar" style="background:linear-gradient(135deg,#b4562f,#e8a33d)">宋</div>
+          <div class="tm-author-info">
+            <h3>宋小满</h3>
+            <p class="tm-author-role">美食与家庭 · 社区创作者</p>
+            <p>拍家常菜与厨房里的小失误，不修饰失败的部分。她的视频常常从洗菜开始，到洗碗结束，完整得像一个下午。</p>
+            <div class="tm-author-nums"><span>作品 38</span><span>粉丝 5.2 万</span></div>
+            <button class="tm-author-more" type="button" data-tm-author="宋小满|美食与家庭 · 社区创作者|38 支原创作品，5.2 万粉丝|全职妈妈，2022 年开始记录自家厨房。她的作品很少出现精致摆盘，更多是孩子挑食、锅底糊了这类真实片段。她说希望观众看完之后想去厨房，而不是想买锅。">查看完整档案</button>
+          </div>
+        </article>
+
+        <article class="tm-author-row">
+          <div class="tm-avatar" style="background:linear-gradient(135deg,#4a6b53,#8fbfc8)">阿</div>
+          <div class="tm-author-info">
+            <h3>阿禾在路上</h3>
+            <p class="tm-author-role">户外与旅行 · 签约创作者</p>
+            <p>以徒步路线为主线，记录沿途的人与补给点。他坚持标注海拔、天气与耗时，让每支旅行视频都能被当作实用攻略使用。</p>
+            <div class="tm-author-nums"><span>作品 72</span><span>粉丝 11.4 万</span></div>
+            <button class="tm-author-more" type="button" data-tm-author="阿禾在路上|户外与旅行 · 签约创作者|72 支原创作品，11.4 万粉丝|前户外领队，2020 年转为全职创作者。他的片子在社区里被称为「可以直接照着走」的攻略型影像，每条路线都附有完整的时间节点与风险提示，是本站户外内容的重要支柱。">查看完整档案</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- S6 榜单：热度榜 / 新人榜 / 口碑榜 -->
+  <section class="tm-section tm-section-alt" id="tm-charts">
+    <div class="tm-wrap">
+      <div class="tm-section-head">
+        <div>
+          <span class="tm-section-kicker">CHARTS</span>
+          <h2 class="tm-section-title">数据榜单：蒂娜muchitina 本周口碑与热度</h2>
+        </div>
+        <p class="tm-section-sub">统计周期为每周一至周日，数据来源为站内播放、收藏与二次引用，不做外部购买流量合并。</p>
+      </div>
+      <div class="tm-chart-grid">
+        <div class="tm-chart-col">
+          <h3>热度榜</h3>
+          <ul class="tm-chart-list">
+            <li>《六点零七分》城市清晨 <span>12.4 万</span></li>
+            <li>《末班车之后》雨夜站台 <span>9.6 万</span></li>
+            <li>《一把刨子的三十年》 <span>7.8 万</span></li>
+            <li>《剪辑节奏课》第 12 期 <span>5.1 万</span></li>
+            <li>《屋顶菜园》春日记录 <span>4.3 万</span></li>
+            <li>《深夜面包房》收工前两小时 <span>3.9 万</span></li>
+          </ul>
+        </div>
+        <div class="tm-chart-col">
+          <h3>新人榜</h3>
+          <ul class="tm-chart-list">
+            <li>冰糖山楂 · 校园日常 <span>新作 4 支</span></li>
+            <li>老城区阿凯 · 街巷观察 <span>新作 3 支</span></li>
+            <li>一颗青柠 · 宠物影像 <span>新作 6 支</span></li>
+            <li>夜航船 · 音乐现场 <span>新作 2 支</span></li>
+            <li>半页笔记 · 读书分享 <span>新作 5 支</span></li>
+            <li>周末木作社 · 手作教程 <span>新作 3 支</span></li>
+          </ul>
+        </div>
+        <div class="tm-chart-col">
+          <h3>口碑榜</h3>
+          <ul class="tm-chart-list">
+            <li>《窗台上的春天》治愈影像 <span>9.6 分</span></li>
+            <li>《补的是鞋，也是路》 <span>9.5 分</span></li>
+            <li>《末班车之后》 <span>9.4 分</span></li>
+            <li>《一针一线》裁缝铺篇 <span>9.3 分</span></li>
+            <li>《屋顶菜园》春日记录 <span>9.1 分</span></li>
+            <li>《夜间巴士》通勤影像 <span>8.9 分</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价（引用摘录） -->
+  <section class="tm-section" id="tm-reviews">
+    <div class="tm-wrap">
+      <div class="tm-section-head">
+        <div>
+          <span class="tm-section-kicker">COMMUNITY VOICE</span>
+          <h2 class="tm-section-title">社区回声：他们如何评价蒂娜muchitina</h2>
+        </div>
+        <p class="tm-section-sub">来自评论区与站内问卷的真实反馈，保留原始语气，不做润色。</p>
+      </div>
+      <div class="tm-review-grid">
+
+        <article class="tm-review">
+          <p>第一次在蒂娜muchitina 看到《六点零七分》，看完立刻去楼下买了个早饭。说不出为什么，就是觉得那条街我也认识。</p>
+          <div class="tm-review-foot">
+            <span class="tm-review-avatar" style="background:#1f6f78">陈</span>
+            <div><div class="tm-review-name">陈过过</div><div class="tm-stars">★★★★★ 老观众</div></div>
+          </div>
+        </article>
+
+        <article class="tm-review">
+          <p>作为新手创作者，剪辑门诊真的救命。阿柘老师没有否定我的表达，只是告诉我哪一刀可以晚三秒。改完之后片子活了。</p>
+          <div class="tm-review-foot">
+            <span class="tm-review-avatar" style="background:#e8a33d">林</span>
+            <div><div class="tm-review-name">林小野</div><div class="tm-stars">★★★★★ 新人创作者</div></div>
+          </div>
+        </article>
+
+        <article class="tm-review">
+          <p>整体内容品质很稳，就是有些专题更新慢。不过慢也有慢的好，等来的东西通常比较扎实。希望冬季企划能多更两集。</p>
+          <div class="tm-review-foot">
+            <span class="tm-review-avatar" style="background:#28485c">顾</span>
+            <div><div class="tm-review-name">顾南舟</div><div class="tm-stars">★★★★☆ 社区成员</div></div>
+          </div>
+        </article>
+
+        <article class="tm-review">
+          <p>带着孩子一起看手作系列，他会问为什么那个爷爷不用电锯。这种问题在家里是问不出来的，谢谢这些片子。</p>
+          <div class="tm-review-foot">
+            <span class="tm-review-avatar" style="background:#8a6a3d">何</span>
+            <div><div class="tm-review-name">何女士</div><div class="tm-stars">★★★★★ 亲子观众</div></div>
+          </div>
+        </article>
+
+        <article class="tm-review">
+          <p>投稿流程比想象中清楚，五个工作日内确实收到了反馈，逐条写得很细。这一点在现在的平台里挺难得。</p>
+          <div class="tm-review-foot">
+            <span class="tm-review-avatar" style="background:#2e8f99">吴</span>
+            <div><div class="tm-review-name">吴一舟</div><div class="tm-stars">★★★★★ 投稿作者</div></div>
+          </div>
+        </article>
+
+        <article class="tm-review">
+          <p>搜索功能可以再强一点，我找一条旧片翻了半天。内容本身没得说，高清画质在手机上也看得很舒服。</p>
+          <div class="tm-review-foot">
+            <span class="tm-review-avatar" style="background:#4a6b53">苏</span>
+            <div><div class="tm-review-name">苏木</div><div class="tm-stars">★★★★☆ 老会员</div></div>
+          </div>
+        </article>
+
+        <article class="tm-review">
+          <p>喜欢这里不催更的气氛。创作者说想歇一个季度，评论区都在说好好休息，这种社区氛围很少见。</p>
+          <div class="tm-review-foot">
+            <span class="tm-review-avatar" style="background:#b4562f">莫</span>
+            <div><div class="tm-review-name">莫回</div><div class="tm-stars">★★★★★ 社区成员</div></div>
+          </div>
+        </article>
+
+        <article class="tm-review">
+          <p>能把地方戏的口述记录放在首页，我愿意给这个品牌更多信任。有些内容明知道不赚钱还做，这就是态度。</p>
+          <div class="tm-review-foot">
+            <span class="tm-review-avatar" style="background:#173f47">郑</span>
+            <div><div class="tm-review-name">郑老师</div><div class="tm-stars">★★★★★ 文化从业者</div></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- S7 辅助区：企业动态 + FAQ -->
+  <section class="tm-section tm-section-deep" id="tm-news">
+    <div class="tm-wrap">
+      <div class="tm-section-head">
+        <div>
+          <span class="tm-section-kicker">BRAND NEWS &amp; FAQ</span>
+          <h2 class="tm-section-title">企业动态与常见问题</h2>
+        </div>
+        <p class="tm-section-sub">官方发布的运营信息、功能更新与帮助说明，均在此处同步。</p>
+      </div>
+      <div class="tm-news">
+        <div>
+          <h3 style="color:#fff;font-size:1.06rem;margin-bottom:16px">企业动态</h3>
+          <div class="tm-news-list">
+            <div class="tm-news-item">
+              <span class="tm-news-date">2026.11.18</span>
+              <div>
+                <h3>冬季影像企划第二集上线</h3>
+                <p>《玻璃上的雾》正式发布，全部素材拍摄于通勤早高峰，附完整创作手记与拍摄参数说明。</p>
+              </div>
+            </div>
+            <div class="tm-news-item">
+              <span class="tm-news-date">2026.11.12</span>
+              <div>
+                <h3>创作者开放日报名开启</h3>
+                <p>本季度开放日设三场，主题分别为选题会、剪辑门诊与授权实务，报名截止 12 月 18 日。</p>
+              </div>
+            </div>
+            <div class="tm-news-item">
+              <span class="tm-news-date">2026.11.05</span>
+              <div>
+                <h3>站内搜索与标签筛选升级</h3>
+                <p>新增按作者、专题、时长三个维度的组合筛选，旧作品的检索速度同步优化。</p>
+              </div>
+            </div>
+            <div class="tm-news-item">
+              <span class="tm-news-date">2026.10.27</span>
+              <div>
+                <h3>手作档案专题完结</h3>
+                <p>五集全部上线，累计为十七位匠人留下口述与工序记录，相关文本资料开放社区查阅。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 style="color:#fff;font-size:1.06rem;margin-bottom:16px">常见问题</h3>
+          <div class="tm-faq">
+            <details open>
+              <summary>如何向蒂娜muchitina 投稿？</summary>
+              <p>点击页面任意「投稿报名」按钮填写主题、素材概况与联系方式，编辑会在五个工作日内回复。首次投稿建议附上一分钟以内的样片。</p>
+            </details>
+            <details>
+              <summary>作品必须是独家首发吗？</summary>
+              <p>官方专题与首页推荐位要求站内首发，其余常规作品允许创作者在其他渠道发布，但需保证商标与配乐授权完整。</p>
+            </details>
+            <details>
+              <summary>视频画质有什么要求？</summary>
+              <p>建议提交 1080p 以上母版，帧率不限。我们提供统一的高清转码与存档服务，原始文件保留在创作者可见的素材库中。</p>
+            </details>
+            <details>
+              <summary>社区比赛与创作挑战如何报名？</summary>
+              <p>每季度挑战会在公告条与企业动态中发布，报名后获得主题说明与提交入口，评选结合社区投票与编辑评审。</p>
+            </details>
+            <details>
+              <summary>平台如何保护创作者权益？</summary>
+              <p>所有入选作品签署授权协议，涉及肖像与场地的镜头需完成书面确认。发现搬运与侵权可通过举报入口提交，核实后依规处理。</p>
+            </details>
+            <details>
+              <summary>企业或品牌可以合作拍摄吗？</summary>
+              <p>可以。我们承接品牌纪实类内容合作，由创作者与编辑团队共同完成策划，如需合作方案请通过联系邮箱沟通。</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 合作墙 + 投稿 CTA -->
+  <section class="tm-section tm-section-alt" id="tm-partners">
+    <div class="tm-wrap">
+      <div class="tm-section-head">
+        <div>
+          <span class="tm-section-kicker">PARTNERS</span>
+          <h2 class="tm-section-title">合作品牌与伙伴</h2>
+        </div>
+        <p class="tm-section-sub">长期支持原创影像的机构与品牌，合作内容均标注在作品页。</p>
+      </div>
+      <div class="tm-partners">
+        <div class="tm-partner">城市档案馆<span>影像资料共建</span></div>
+        <div class="tm-partner">木作工坊联盟<span>手作专题支持</span></div>
+        <div class="tm-partner">地铁声音计划<span>通勤影像合作</span></div>
+        <div class="tm-partner">本地咖啡社群<span>线下放映场地</span></div>
+      </div>
+      <div class="tm-cta" style="margin-top:34px">
+        <div>
+          <h2>把你的那支片子，交给一个愿意等的社区</h2>
+          <p>蒂娜muchitina 官方网站长期开放创作者投稿与品牌合作。我们提供选题辅导、剪辑反馈、高清转码与正版授权支持，也愿意陪你慢慢做完第一支、第二支、第三十七支。</p>
+        </div>
+        <div class="tm-cta-actions">
+          <button class="tm-btn tm-btn-amber" type="button" data-tm-modal="submit">立即投稿</button>
+          <button class="tm-btn tm-btn-ghost" type="button" data-tm-modal="feedback" style="border-color:#8fd0d8;color:#dff1f1">合作与反馈</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- S8 页脚 -->
+<footer class="tm-footer">
+  <div class="tm-wrap">
+    <div class="tm-footer-grid">
+      <div class="tm-footer-brand">
+        <a class="tm-logo" href="#tm-hero" aria-label="蒂娜muchitina 官方视频门户 页脚标识">
+          <span class="tm-logo-mark" aria-hidden="true">蒂</span>
+          <span class="tm-logo-txt">
+            <strong>蒂娜muchitina</strong>
+            <span>OFFICIAL VIDEO</span>
+          </span>
+        </a>
+        <p>蒂娜muchitina 官方网站，持续运营的原创影像品牌与创作者社区。我们以专业、高清、正版的内容生态，陪伴每一个认真记录的人。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#tm-videos">精品内容</a></li>
+          <li><a href="#tm-features">专题企划</a></li>
+          <li><a href="#tm-charts">数据榜单</a></li>
+          <li><a href="#tm-reviews">社区回声</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>创作者服务</h4>
+        <ul>
+          <li><a href="#tm-authors">创作者矩阵</a></li>
+          <li><a href="#tm-essay">品牌解析</a></li>
+          <li><a href="#tm-news">投稿说明</a></li>
+          <li><a href="#tm-news">创作挑战</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于我们</h4>
+        <ul>
+          <li><a href="#tm-hero">企业简介</a></li>
+          <li><a href="#tm-news">企业动态</a></li>
+          <li><a href="#tm-partners">合作品牌</a></li>
+          <li><a href="#tm-news">帮助中心</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tm-footer-bottom">
+      <span>© 2019–2026 蒂娜muchitina 官方网站 · 版权所有 · 持续运营中</span>
+      <span>品牌备案：影字展示 2026-0186 ｜ 内容授权与合作请通过站内渠道联系</span>
+    </div>
+  </div>
+</footer>
+
+<!-- 通用弹窗 -->
+<div class="tm-modal-mask" id="tmModalMask">
+  <div class="tm-modal" role="dialog" aria-modal="true" aria-labelledby="tmModalTitle">
+    <button class="tm-modal-close" type="button" id="tmModalClose" aria-label="关闭">×</button>
+    <div id="tmModalBody"></div>
+  </div>
+</div>
+
+<div class="tm-toast" id="tmToast" role="status" aria-live="polite"></div>
+<button class="tm-backtop" id="tmBackTop" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- 移动端导航 ---------- */
+  var nav = document.getElementById('tmNav');
+  var menuToggle = document.getElementById('tmMenuToggle');
+  menuToggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('is-open');
+    menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      nav.classList.remove('is-open');
+      menuToggle.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* ---------- Toast ---------- */
+  var toast = document.getElementById('tmToast');
+  var toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('is-show'); }, 2200);
+  }
+
+  /* ---------- 搜索反馈 ---------- */
+  var searchInput = document.getElementById('tmSearchInput');
+  var searchBtn = document.getElementById('tmSearchBtn');
+  var searchNote = document.getElementById('tmSearchNote');
+  var searchIndex = ['城市光影 冬季影像企划','六点零七分 早餐摊','一把刨子的三十年 木作','末班车之后 雨夜','剪辑节奏课','手的档案 手作匠人','新人扶持 第一支片子','周慕白','林间手记','谢未央','剪辑师阿柘','口碑榜','热度榜'];
+  function runSearch(){
+    var q = (searchInput.value || '').trim();
+    if(!q){
+      searchNote.innerHTML = '输入内容标题、创作者昵称或专题名称试试，例如「手作」或「雨夜」。';
+      searchNote.classList.add('is-open');
+      return;
+    }
+    var hits = searchIndex.filter(function(item){ return item.indexOf(q) !== -1; });
+    if(hits.length){
+      searchNote.innerHTML = '找到 <b>' + hits.length + '</b> 条相关内容：' + hits.slice(0,3).join('、') + (hits.length>3 ? ' 等' : '');
+    }else{
+      searchNote.innerHTML = '暂未匹配到「' + q + '」，可尝试更短的关键词，或到投稿入口告诉我们你想看什么。';
+    }
+    searchNote.classList.add('is-open');
+  }
+  searchBtn.addEventListener('click', runSearch);
+  searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); runSearch(); } });
+  searchInput.addEventListener('input', function(){ if(!searchInput.value.trim()){ searchNote.classList.remove('is-open'); } });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.tm-search')){ searchNote.classList.remove('is-open'); }
+  });
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-tm-like]');
+    if(likeBtn){
+      var b = likeBtn.querySelector('b');
+      var num = parseInt(b.textContent.replace(/,/g,''), 10) || 0;
+      if(likeBtn.classList.toggle('is-active')){
+        num += 1;
+        showToast('已点赞，感谢你的喜欢');
+      }else{
+        num = Math.max(0, num - 1);
+        showToast('已取消点赞');
+      }
+      b.textContent = num.toLocaleString('en-US');
+      return;
+    }
+    var favBtn = e.target.closest('[data-tm-fav]');
+    if(favBtn){
+      if(favBtn.classList.toggle('is-fav')){
+        favBtn.textContent = '★ 已收藏';
+        showToast('已加入收藏夹');
+      }else{
+        favBtn.textContent = '☆ 收藏';
+        showToast('已取消收藏');
+      }
+      return;
+    }
+    var shareBtn = e.target.closest('[data-tm-share]');
+    if(shareBtn){
+      var title = shareBtn.closest('.tm-video-item') ? shareBtn.closest('.tm-video-item').querySelector('h3').textContent : '蒂娜muchitina';
+      var shareText = '蒂娜muchitina｜' + title;
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(shareText).then(function(){
+          showToast('作品信息已复制，可分享到微信 / 微博 / QQ');
+        }).catch(function(){
+          showToast('分享：' + shareText);
+        });
+      }else{
+        showToast('分享：' + shareText);
+      }
+    }
+  });
+
+  /* ---------- 弹窗 ---------- */
+  var mask = document.getElementById('tmModalMask');
+  var modalBody = document.getElementById('tmModalBody');
+  var modalClose = document.getElementById('tmModalClose');
+  function openModal(html){
+    modalBody.innerHTML = html;
+    mask.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    mask.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+  modalClose.addEventListener('click', closeModal);
+  mask.addEventListener('click', function(e){ if(e.target === mask) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && mask.classList.contains('is-open')) closeModal(); });
+
+  document.addEventListener('click', function(e){
+    var trigger = e.target.closest('[data-tm-modal]');
+    if(!trigger) return;
+    var type = trigger.getAttribute('data-tm-modal');
+    if(type === 'submit'){
+      openModal(
+        '<h3 id="tmModalTitle">投稿报名 · 蒂娜muchitina</h3>' +
+        '<p>填写基本信息即可进入编辑初审，我们会在五个工作日内给出具体反馈。首次投稿建议附一分钟以内样片。</p>' +
+        '<form class="tm-modal-form" id="tmSubmitForm">' +
+          '<input type="text" placeholder="你的昵称 / 创作者名" required>' +
+          '<input type="email" placeholder="联系邮箱" required>' +
+          '<input type="text" placeholder="作品主题（例如：雨夜站台观察）" required>' +
+          '<textarea placeholder="简单描述企划与素材情况"></textarea>' +
+          '<button class="tm-btn tm-btn-primary" type="submit" style="justify-content:center">提交报名</button>' +
+        '</form>'
+      );
+    }else if(type === 'feedback'){
+      openModal(
+        '<h3 id="tmModalTitle">合作与反馈</h3>' +
+        '<p>品牌合作、内容纠错、侵权举报均可在此提交。请在标题中注明类型，便于我们分派处理。</p>' +
+        '<form class="tm-modal-form" id="tmFeedbackForm">' +
+          '<input type="text" placeholder="类型（合作 / 纠错 / 举报 / 其他）" required>' +
+          '<input type="email" placeholder="联系邮箱" required>' +
+          '<textarea placeholder="补充说明" required></textarea>' +
+          '<button class="tm-btn tm-btn-amber" type="submit" style="justify-content:center">发送反馈</button>' +
+        '</form>'
+      );
+    }
+  });
+
+  document.addEventListener('submit', function(e){
+    if(e.target.id === 'tmSubmitForm'){
+      e.preventDefault();
+      closeModal();
+      showToast('投稿报名已收到，五个工作日内回复');
+    }
+    if(e.target.id === 'tmFeedbackForm'){
+      e.preventDefault();
+      closeModal();
+      showToast('反馈已提交，感谢你的认真');
+    }
+  });
+
+  /* ---------- 作者档案弹窗 ---------- */
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-tm-author]');
+    if(!btn) return;
+    var parts = btn.getAttribute('data-tm-author').split('|');
+    openModal(
+      '<h3 id="tmModalTitle">' + parts[0] + '</h3>' +
+      '<p style="color:#e0932f;font-weight:700;font-size:.84rem">' + parts[1] + '</p>' +
+      '<div class="tm-tags"><span class="tm-tag">' + parts[2] + '</span></div>' +
+      '<p>' + parts[3] + '</p>' +
+      '<p style="margin-top:14px;font-size:.82rem;color:#7b8b90">档案由蒂娜muchitina 官方维护，作品数据每周更新一次。</p>'
+    );
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var backTop = document.getElementById('tmBackTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ backTop.classList.add('is-show'); }
+    else { backTop.classList.remove('is-show'); }
+  }, {passive:true});
+  backTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* ---------- 数据数字滚动（首屏统计） ---------- */
+  var counted = false;
+  function animateCount(){
+    if(counted) return;
+    var els = document.querySelectorAll('[data-tm-count]');
+    if(!els.length) return;
+    counted = true;
+    els.forEach(function(el){
+      var target = parseInt(el.getAttribute('data-tm-count'), 10);
+      var start = 0, step = Math.max(1, Math.round(target / 42));
+      var suffix = target >= 1000 ? '' : '';
+      var timer = setInterval(function(){
+        start += step;
+        if(start >= target){ start = target; clearInterval(timer); }
+        el.textContent = start.toLocaleString('en-US') + suffix;
+      }, 26);
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ animateCount(); io.disconnect(); } });
+    }, {threshold:.4});
+    var heroStats = document.querySelector('.tm-stats');
+    if(heroStats) io.observe(heroStats);
+  }else{
+    animateCount();
+  }
+})();
+</script>
+</body>
+                </html>
